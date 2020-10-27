@@ -7,6 +7,8 @@ import { LayoutComponent } from './components/layout/layout.component';
 import { MainComponent } from './components/main/main.component';
 import { ProfilePageComponent } from './components/profile-page/profile-page.component';
 import { ButtonComponent } from './components/button/button.component';
+import { FeedComponent } from './components/feed/feed.component';
+import { TweetComponent } from './components/tweet/tweet.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ButtonComponent } from './components/button/button.component';
     LayoutComponent,
     MainComponent,
     ProfilePageComponent,
-    ButtonComponent
+    ButtonComponent,
+    FeedComponent,
+    TweetComponent
   ],
   imports: [
     BrowserModule,

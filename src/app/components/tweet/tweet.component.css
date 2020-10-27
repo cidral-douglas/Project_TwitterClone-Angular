@@ -1,0 +1,126 @@
+.clear {
+    clear: both;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 14px 16px;
+
+    border-bottom: 1px solid var(--outline);
+
+    max-width: 100%;
+}
+
+.retweeted {
+    display: flex;
+    align-items: center;
+
+    font-size: 13px;
+    color: var(--gray);
+}
+
+.retweetIcon {
+    margin-left: 35px;
+    margin-right: 9px;
+}
+
+.body {
+    display: flex;
+    margin-top: 3px;
+
+    position: relative;
+}
+
+.avatar {
+    width: 49px;
+    height: 49px;
+
+    border-radius: 50%;
+    flex-shrink: 0;
+    background: var(--gray);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    margin-top: 2px;
+    padding-left: 59px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+    white-space: nowrap;
+}
+
+header strong {
+    margin-right: 5px;
+}
+
+header span,time {
+    color: var(--gray);
+}
+
+header strong,span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.dot {
+    background: var(--gray);
+    width: 2px;
+    height: 2px;
+    border-radius: 50%;
+    margin: 0 10px;
+
+    transform: translateY(50%);
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.imgContent {
+    margin-top: 12px;
+    width: 100%;
+    height: min(285px, max(175px, 41vw));
+
+    background: var(--outline);
+    border-radius: 14px;
+
+    cursor: pointer;
+}
+
+.imgContent:hover {
+    opacity: 0.7;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+    margin: 11px auto 0;
+    width: 100%;
+}
+
+
+@media screen and (min-width: 330px) {
+    
+    .icons {
+        width: 63%;
+    }
+}
