@@ -1,0 +1,117 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    max-height: 100%;
+    overflow-y: auto;
+
+    scrollbar-width: none; /** Firefox **/
+}
+
+.container::-webkit-scrollbar {
+    display: none; /** Chrome **/
+}
+
+.banner {
+    flex-shrink: 0;
+
+    width: 100%;
+    height: min(33vw, 199px);
+
+    /* background: var(--twitter); */
+    background: url('../../../assets/banner.jpg');
+    background-position: 100% 80%;
+    background-size: cover;
+
+    position: relative;
+}
+
+.avatar {
+    width: max(45px, min(135px, 22vw));
+    height: max(45px, min(135px, 22vw));
+
+    border: 3.75px solid var(--primary);
+    /* background: var(--gray); */
+    background: url('../../../assets/eu.JPG');
+    background-position: center;
+    background-size: 160%;
+    border-radius: 50%;
+
+    position: absolute;
+    bottom: max(-60px, -10vw);
+    left: 15px;
+}
+
+.profileData {
+    padding: min(calc(10vw + 7px), 67px) 16px 0;
+
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.profileData .editButton {
+    position: absolute;
+    top: 2vw;
+    right: 7px;
+}
+
+.profileData h1 {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.profileData h2 {
+    font-weight: normal;
+    font-size: 15px;
+
+    color: var(--gray);
+}
+
+.profileData p {
+    font-size: 15px;
+    margin-top: 11px;;
+}
+
+.profileData a {
+    text-decoration: none;
+    color: var(--twitter);
+}
+
+.profileData ul {
+    list-style: none;
+    margin: 10px 0;
+}
+
+.profileData li {
+    display: flex;
+    align-items: center;
+
+    font-size: 15px;
+    color: var(--gray);
+}
+
+.profileData svg {
+    margin-right: 5px;
+}
+
+.profileData .followage {
+    display: flex;
+}
+
+.profileData .followage span {
+    font-size: 15px;
+    color: var(--gray);
+}
+
+.profileData .followage strong {
+    margin-right: 20px;
+}
+
+@media screen and (min-width: 320px) {
+
+    .profileData .editButton {
+        top: 10px;
+    }
+}
