@@ -79,8 +79,8 @@ header strong,span {
 
 .dot {
     background: var(--gray);
-    width: 2px;
-    height: 2px;
+    width: 4px;
+    height: 4px;
     border-radius: 50%;
     margin: 0 10px;
 
