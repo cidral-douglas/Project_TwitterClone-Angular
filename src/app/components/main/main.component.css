@@ -1,9 +1,15 @@
+.main {
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
 
-    /* width: min(601px, 100%); */
-    width: 601px;
+    width: min(601px, 100%);
 }
 
 header{
@@ -83,7 +89,6 @@ header svg:hover {
 }
 
 
-
 @media screen and (min-width: 500px) {
     .container {
         border-left: 1px solid var(--outline);
@@ -91,6 +96,6 @@ header svg:hover {
     }
 
     .bottomMenu {
-        /* display: none; */
+        display: none;
     }
 }
