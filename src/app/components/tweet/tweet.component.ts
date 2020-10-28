@@ -13,6 +13,7 @@ export class TweetComponent implements OnInit {
   @Input() user: string;
   @Input() date: string;
   @Input() desc: string;
+  @Input() img: string;
 
   ngOnInit(): void {
   }

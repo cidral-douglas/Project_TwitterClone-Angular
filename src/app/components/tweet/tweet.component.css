@@ -97,14 +97,13 @@ header strong,span {
     width: 100%;
     height: min(285px, max(175px, 41vw));
 
-    background: var(--outline);
     border-radius: 14px;
 
     cursor: pointer;
 }
 
 .imgContent:hover {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 .icons {

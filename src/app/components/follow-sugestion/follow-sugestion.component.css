@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: var(--secondary);
+    border-radius: 14px;
+}
+
+h1 {
+    padding: 13px 16px 10px ;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.item {
+    position: relative;
+
+    padding: 10px 140px 10px 16px;
+    border-top: 1px solid var(--outline);
+
+    display: flex;
+    align-items: center;
+}
+
+.item:nth-last-of-type(1) {
+    padding-bottom: 17px;
+    border-bottom: 1px solid var(--outline);
+}
+
+.avatar {
+    width: 39px;
+    height: 39px;
+
+    flex-shrink: 0;
+    
+    border-radius: 50%;
+     background: var(--gray); 
+}
+
+.profileData {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.profileData span {
+    color: var(--gray);
+    padding-right: 50px;
+}
+
+.followButton {
+    position: absolute;
+    left: 240px;
+    cursor: pointer;
+}
+
+h2 {
+    
+    margin-left: 15px;
+    padding: 13px 16px 10px ;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--twitter);
+    cursor: pointer;
+}

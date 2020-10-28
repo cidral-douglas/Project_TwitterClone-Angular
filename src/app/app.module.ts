@@ -11,6 +11,8 @@ import { FeedComponent } from './components/feed/feed.component';
 import { TweetComponent } from './components/tweet/tweet.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 import { SideBarComponent } from './components/side-bar/side-bar.component';
+import { FollowSugestionComponent } from './components/follow-sugestion/follow-sugestion.component';
+import { NewsComponent } from './components/news/news.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     FeedComponent,
     TweetComponent,
     MenuBarComponent,
-    SideBarComponent
+    SideBarComponent,
+    FollowSugestionComponent,
+    NewsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    background: var(--secondary);
+    border-radius: 14px;
+
+    font-size: 14px;
+
+    margin-top: 30px;
+}
+
+h1 {
+    padding: 13px 16px 10px ;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 13px 16px 10px;
+    border-top: 1px solid var(--outline);
+}
+
+.item:nth-last-of-type(1) {
+    padding-bottom: 17px;
+    border-bottom: 1px solid var(--outline);
+}
+
+span {
+    font-size: 13px;
+    color: var(--gray);
+    margin-bottom: 3px;
+}
+
+strong {
+    font-size: 13.7px;
+}
+
+h2 {
+    
+    margin-left: 15px;
+    padding: 13px 16px 10px ;
+    font-weight: normal;
+    font-size: 14px;
+    color: var(--twitter);
+    cursor: pointer;
+}

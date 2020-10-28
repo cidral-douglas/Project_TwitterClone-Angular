@@ -42,8 +42,18 @@
 .body {
     display: flex;
     flex-direction: column;
-    padding: 57px 24px 200px;
+    padding: 57px 24px 30px;
     margin-top: 3px;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    color: var(--gray);
+    margin-bottom: 5px;
 }
 
 @media screen and (min-width: 1000px) {
