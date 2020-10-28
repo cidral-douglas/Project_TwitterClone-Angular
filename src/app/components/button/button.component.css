@@ -12,6 +12,27 @@ div {
     font-size: 13px;
 }
 
+.btn--tweet {   
+    border-radius: 25px;
+    font-weight: bold; 
+    cursor: pointer;
+    outline: 0;
+
+    padding: 10px 60px;
+    font-size: 14px;
+}
+
+.btn--tweet--mobile {   
+    border-radius: 50%;
+    font-weight: bold; 
+    cursor: pointer;
+    outline: 0;
+
+    padding: 10px 15px;
+
+    font-size: 18px;
+}
+
 .outlined {
     background: var(--transparent);
     color: var(--twitter);

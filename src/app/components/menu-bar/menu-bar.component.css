@@ -1,0 +1,103 @@
+.container {
+   display: none;
+}
+
+.topside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.menuButton {
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+
+    padding: 8.25px 0;
+    outline: 0;
+
+    cursor: pointer;
+
+    border-radius: 25px;
+}
+
+/* .menuButton:hover {
+    background:  var(--twitter-dark-hover);
+} */
+
+.menuButton span {
+    display: none;
+}
+
+.menuButton svg {
+    position: relative;
+    top: 8px;
+}
+
+.menuButton:hover svg,
+.menuButton:hover span,
+.active
+ {
+    color: var(--twitter);
+    fill: var(--twitter);
+}
+
+button.menuButton {
+    margin-top: 16.5px;
+}
+
+.desktop {
+    display: none;
+}
+
+@media screen and (min-width: 1280px) {
+
+    .topside {
+        align-items: flex-start;
+    }
+
+    /* .menuButton {
+        padding-right: 15px;
+    } */
+
+    .menuButton span {
+        display: inline;
+        margin-left: 19px;
+
+        font-weight: bold;
+        font-size: 19px;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: inline;
+    }
+}
+
+@media screen and (min-width: 600px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        position: sticky;
+        top: 0;
+        left: 0;
+
+        padding: 9px 19px 20px;
+
+        max-height: 100vh;
+        overflow-y: auto;
+    }
+}

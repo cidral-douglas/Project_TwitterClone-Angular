@@ -9,6 +9,7 @@ import { ProfilePageComponent } from './components/profile-page/profile-page.com
 import { ButtonComponent } from './components/button/button.component';
 import { FeedComponent } from './components/feed/feed.component';
 import { TweetComponent } from './components/tweet/tweet.component';
+import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TweetComponent } from './components/tweet/tweet.component';
     ProfilePageComponent,
     ButtonComponent,
     FeedComponent,
-    TweetComponent
+    TweetComponent,
+    MenuBarComponent
   ],
   imports: [
     BrowserModule,

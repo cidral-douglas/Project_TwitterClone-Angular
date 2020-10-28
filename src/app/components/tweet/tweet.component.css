@@ -117,6 +117,28 @@ header strong,span {
     width: 100%;
 }
 
+.icons .status {
+    display: flex;
+    align-items: center;
+
+    font-size: 14px;
+}
+
+.icons .status span {
+    cursor: pointer;
+}
+
+.icons .status svg {
+    margin-right: 5px;
+
+    transition: all ease 0.2s;
+}
+
+
+.icons .status svg:hover {
+    transform: scale(1.05);
+}
+
 
 @media screen and (min-width: 330px) {
     

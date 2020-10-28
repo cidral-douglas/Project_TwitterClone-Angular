@@ -1,5 +1,5 @@
 .main {
-    width: 100vw;
+    width: 42vw;
     
     display: flex;
     justify-content: center;
@@ -90,6 +90,20 @@ header svg:hover {
 
 .homeIcon svg.active {
     fill: var(--twitter);
+}
+
+@media screen and (max-width: 1280px) {
+
+    .main {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .main {
+        width: 100vw;
+    }
 }
 
 
