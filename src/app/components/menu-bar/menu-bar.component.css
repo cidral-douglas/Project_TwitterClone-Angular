@@ -10,7 +10,7 @@
 
 .logo {
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
 }
 
 .menuButton {
@@ -26,6 +26,8 @@
     cursor: pointer;
 
     border-radius: 25px;
+
+    margin-top: 16.5px;
 }
 
 /* .menuButton:hover {
@@ -57,6 +59,37 @@ button.menuButton {
     display: none;
 }
 
+.botside {
+    position: fixed;
+    bottom: 0;
+    margin-left: 8px;
+    margin-bottom: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 39px;
+    height: 39px;
+
+    flex-shrink: 0;
+    
+    border-radius: 50%;
+    /* background: var(--gray); */
+    background: url('../../../assets/eu.JPG');
+    background-size: 170%;
+    background-position: center;
+}
+
+.profileData {
+    display: none;
+}
+
+.exitIcon {
+    display: none;
+}
+
 @media screen and (min-width: 1280px) {
 
     .topside {
@@ -81,6 +114,28 @@ button.menuButton {
 
     .desktop {
         display: inline;
+    }
+
+    .profileData {
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .profileData span {
+        color: var(--gray)
+    }
+
+    .exitIcon {
+        display: inline-block;
+        margin-left: 3px;
+        cursor: pointer;
+    }
+
+    .exitIcon svg:hover {
+        fill: var(--like);
     }
 }
 
