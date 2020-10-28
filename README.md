@@ -1,12 +1,12 @@
 # Twitter Clone
 
-![Screenshot][Screenshots/ScreenshotFull.png]
+![Screenshot](Screenshots/ScreenshotFull.png)
 
 ## Versão para IPad
 
-![Screenshot][Screenshots/ipad.png]
+![Screenshot](Screenshots/ipad.png)
 
 ## Versão Mobile
 
-![Screenshot][Screenshots/mobile.png]
+![Screenshot](Screenshots/mobile.png)
 
