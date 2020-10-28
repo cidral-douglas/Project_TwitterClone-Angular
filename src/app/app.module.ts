@@ -10,6 +10,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { FeedComponent } from './components/feed/feed.component';
 import { TweetComponent } from './components/tweet/tweet.component';
 import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
+import { SideBarComponent } from './components/side-bar/side-bar.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MenuBarComponent } from './components/menu-bar/menu-bar.component';
     ButtonComponent,
     FeedComponent,
     TweetComponent,
-    MenuBarComponent
+    MenuBarComponent,
+    SideBarComponent
   ],
   imports: [
     BrowserModule,
